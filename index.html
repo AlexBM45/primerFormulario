@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Cuestionario</h2>
+    </header>
+    <main>
+        <form id="cuestionario" action="">
+            <input type="text" id="name" placeholder="Nombre">
+            <input type="text" id="lastname" placeholder="Apellido">
+            <input type="email" placeholder="correo electrónico">
+            <input type="text" id="age" placeholder="Edad">
+            <div class="opciones">
+                <label for="tipoUsuario">Tipo de Usuario</label>
+                <select name="type" id="tipoUsuario">
+                    <option value="padawan">Padawan</option>
+                    <option value="mentor">Mentor</option>
+                    <option value="admin">Administrador</option>
+                </select>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
