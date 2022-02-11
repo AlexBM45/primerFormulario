@@ -2,32 +2,42 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: rgb(252, 65, 158);
-    background-color: antiquewhite;
+    color: rgb(167, 7, 156);
+}
+
+header {
+    background-color: rgb(156 78 152);
+    font-weight: bolder;
+    padding: 1.4rem 0;
+}
+
+h1 {
+    padding-left: 0.8rem;
+    color: white;
+    letter-spacing: 0.2rem;
 }
 
 main {
     display: flex;
     justify-content: center;
+    margin: 8% 0;
 }
 
 h2 {
-    margin: 4rem;
-    text-align: center;
+    padding-bottom: 1.6rem;
 }
 
 #cuestionario {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem;
 }
 
 #cuestionario input {
     border-radius: 0.3rem;
-    border: 1px solid rgb(231, 14, 122);
-    background-color: pink;
+    border: 1px solid rgb(156 78 152);
+    background-color: rgb(248, 190, 245);
 }
 
 #cuestionario input, .opciones {
